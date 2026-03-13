@@ -1,7 +1,28 @@
  .hero{
-    height: 1000px;
+    height: 500px;
     background-image: url(../images/pexels-abel-kayode-155872537-10850704.jpg);
     background-size: cover;
-    background-position: center 150%;
+    background-position: center 65%;
     background-repeat: no-repeat;
+    display: flex;
+  
+ }
+
+
+ .naviga{
+   gap: 100px;
+   display: flex;
+   background-color: antiquewhite;
+   height: 50px;
+ } 
+ 
+ .brandname{
+  margin-top: auto;
+  color: plum;
+ }
+
+ .products{
+  display: flex;
+  justify-content: space-around;
+  background-color: bisque;
  }
